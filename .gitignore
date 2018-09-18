@@ -1,3 +1,6 @@
 target/
 redis-data/
 bin/
+.project
+.classpath
+.settings/
