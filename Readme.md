@@ -9,7 +9,7 @@ Code für Docker-Live-Demo mit einfachem Java Spring Boot Container und Redis-DB
 
 ## Starten
 
-    docker run -d -p 8080:8080 dockerintro
+    docker run --rm -it -p 8080:8080 dockerintro
 
 Endpunkte:
 
@@ -19,4 +19,4 @@ Endpunkte:
 
 ## Mit Redis starten (+ ggf. bauen)
 
-    docker-compose up -d
+    docker-compose up
